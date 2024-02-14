@@ -115,7 +115,7 @@ void AvaliarUmaBanda()
         int nota = int.Parse(Console.ReadLine()!);
         bandasRegistradas[nomeDaBanda].Add(nota); //o [] foi usado para indexar o dicionario; o .add é para adicionar uma nota a lista do dicionário, nesse caso
         Console.WriteLine($"\nA nota {nota} foi registrada com sucesso para a Banda {nomeDaBanda}.");
-        Thread.Sleep(4000);
+        Thread.Sleep(3000);
         Console.Clear();
         ExibirOpcoesDoMenu();
     } else
@@ -126,7 +126,7 @@ void AvaliarUmaBanda()
         Console.Clear();
         ExibirOpcoesDoMenu();
     }
-}.
+}
 
 ExibirLogo();
 ExibirOpcoesDoMenu();
